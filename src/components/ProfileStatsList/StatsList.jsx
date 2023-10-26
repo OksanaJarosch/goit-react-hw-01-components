@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 export const StatsList = (({stats: {followers, views, likes}}) => {
     return (
@@ -16,4 +17,13 @@ export const StatsList = (({stats: {followers, views, likes}}) => {
     </li>
   </ul>
     )
-}) 
+});
+
+
+StatsList.propTypes = {
+        stats: PropTypes.exact({
+            followers: PropTypes.number.isRequired,
+            views: PropTypes.number.isRequired,
+            likes: PropTypes.number.isRequired,
+        })
+}
