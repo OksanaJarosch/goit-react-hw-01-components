@@ -4,6 +4,7 @@ export const ProfileWrapper = styled.div`
 width: 250px;
 height: 370px;
 margin: 20px;
+margin-bottom: 70px;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 8px;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
