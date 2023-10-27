@@ -17,7 +17,7 @@ const getColor = (props) => {
 }
 
 export const StatSection = styled.div`
-width: 350px;
+max-width: 350px;
 height: 135px;
 margin: 20px;
 margin-bottom: 70px;

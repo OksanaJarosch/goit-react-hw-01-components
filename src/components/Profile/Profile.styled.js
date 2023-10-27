@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProfileWrapper = styled.div`
-width: 250px;
+max-width: 250px;
 height: 370px;
 margin: 20px;
 margin-bottom: 70px;
